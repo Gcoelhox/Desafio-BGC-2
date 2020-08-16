@@ -27,7 +27,7 @@ class App extends Component {
     
   function reply(e) {
     e.preventDefault();
-    emailjs.sendForm('gmail','papoyshop',e.target,'****')
+    emailjs.sendForm('gmail','papoyshop',e.target,'*******')
     .then((result) => {
       console.log(result.text);
     }, (error) => {
