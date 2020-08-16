@@ -1,0 +1,208 @@
+/* Formatação da div principal*/
+.Encapsulamento {
+  background-color: #ffe135;
+  font-family: 'Luckiest Guy', cursive;
+  min-height: 100vh;
+  position: fixed;
+  min-width: 100vw;
+} 
+
+/* Formatação do header */
+.Cabecalho {
+  background-color:  #000921;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* Formatação do logo */
+.Logo {
+  max-width: 10vw;
+  max-height: 10vh;
+}
+
+/* Formatação da div que contém o formulario */
+.Rodape{
+  position: relative;
+ display: flex;
+ align-self: center;
+ margin-top: 15vh;
+ margin-left: 39vw;
+}
+
+/* Alinhamento da mensagem Redux */
+.cab {
+  align-self: center;
+}
+
+/* Formatação do formulário */
+.Formulario {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+/* Formatação geral dos spans */
+span {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Alinhamento dos inputs */
+.Dados input {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 250px;
+  align-self: center;
+  border-radius: 5px;
+}
+
+/* Formatação e alinhamento do botão */
+#enviar{
+   align-self: center;
+   width: 100px;
+   height: 50px;
+   margin-top: 10px;
+   border-radius: 5px;
+   font-family: 'Luckiest Guy', cursive;
+   font-size: 20px;
+   background-color: #0c4e84;
+}
+
+/* Formatação da textarea */
+.msg {
+  width: 250px;
+  align-self: center;
+  height: 150px;
+  margin-top: 10px;
+  border-radius: 7px;
+  resize: none;
+  
+}
+
+/* Formatação dos minions pendurados */
+.mh img {
+  position: absolute;
+  max-width: 200px;
+}
+
+/* Formatação do minion do buraco */
+.mt img {
+  position: absolute;
+  max-width: 200px;
+  margin-top: -10vh;
+  margin-left: 80vw;
+}
+
+/* Formatação do texto principal */
+.Encapsulamento span.titulo {
+  position: relative;
+  margin-left: 20vw;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+/* Responsividade para dispositivos moveis */
+@media (max-width: 600px) {
+
+  .Logo {
+    max-width: 50px;
+  }
+  .Rodape{
+    margin-top: 50vh;
+    margin-left: 26.5vw;
+    width: 20vw;
+    
+  }
+
+  .Dados input{
+    width: 150px;
+    font-size: 8px;
+  }
+
+  .msg{
+    width: 150px;
+    height: 50px;
+    font-size: 8px;
+  }
+
+  
+  .cab {
+    font-size: 10px;
+  }
+
+  #enviar {
+    font-size: 20px;
+  }
+      
+.mh img {
+  position: absolute;
+  max-width: 100px;
+}
+
+.mt img {
+  position: absolute;
+  max-width: 100px;
+  margin-top: -10vh;
+  margin-left: 70vw;
+}
+
+.Encapsulamento span.titulo {
+  position: absolute;
+  margin-left: 25vw;
+  font-size: 35px;
+  margin-top: 10vh;
+}
+}
+
+@media (min-width: 1921px) {
+  .Encapsulamento span.titulo {
+    font-size: 150px;
+    margin-top: 500px;
+    margin-left: 800px;
+    position: relative;
+  }
+
+  .Formulario input {
+    font-size: 100px;
+    width: 1500px;
+    border-radius: 50px;
+  }
+
+  .msg {
+    width: 1500px;
+    height: 500px;
+    font-size:100px ;
+    border-radius: 60px;
+  }
+
+  #enviar {
+    width: 500px;
+    height: 250px;
+    border-radius: 60px;
+  }
+
+  .Rodape {
+    width: 500px;
+  }
+
+  .Formulario {
+    width: 1500px;
+    margin-left: -5.7vw;
+    
+  }
+  .cab {
+    font-size: 100px;
+    display: flex;
+  }
+
+  .mh img {
+    max-width: 400px;
+  }
+
+  .mt img {
+    max-width: 700px;
+  }
+}
